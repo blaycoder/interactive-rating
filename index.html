@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 13px;
+        margin-top: 7%;
+        color: #ffffff;
+        text-align: center;
+      }
+
+      .attribution a {
+        color: hsl(46, 100%, 50%);
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Rating state start -->
+    <div class="rating_container">
+      <div class="rate__img">
+        <img src="images/icon-star.svg" class="rate__star" alt="rate-star" />
+      </div>
+
+      <div class="rating_title">
+        <h3>How did we do?</h3>
+      </div>
+
+      <div class="rating_content">
+        <p>
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+      </div>
+
+      <div class="rating_number" data-id="12345678">
+        <div class="rate__num__circle rate_num">
+          <h5>1</h5>
+        </div>
+        <div class="rate__num__circle rate_num">
+          <h5>2</h5>
+        </div>
+        <div class="rate__num__circle rate_num">
+          <h5>3</h5>
+        </div>
+        <div class="rate__num__circle rate_num">
+          <h5>4</h5>
+        </div>
+        <div class="rate__num__circle rate_num">
+          <h5>5</h5>
+        </div>
+      </div>
+
+      <div class="submit_btn">
+        <button>SUBMIT</button>
+      </div>
+    </div>
+
+    <!-- Rating state end -->
+
+    <!-- Thank you state start -->
+    <div class="appreciation_container">
+      <!-- <div class="appreciate_img">
+      <img src="images/illustration-thank-you.svg" alt="thank_you">
+    </div>
+    <div class="msg_container">
+      <div class="selected_msg">
+        You selected 4 out of 5
+      </div>
+    </div>
+
+    <p>
+    <h3 class="appreciate_title">Thank you!</h3>
+    </p>
+
+    <div class="appreciate_text">
+      <p>
+        We appreciate you taking the time to give a rating. If you ever need more support,
+        don't hesitate to get in touch!
+      </p>
+    </div> -->
+    </div>
+
+    <!-- Thank you state end -->
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/blaycoder">Blaycoder</a>.
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
